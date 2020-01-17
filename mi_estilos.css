@@ -1,0 +1,100 @@
+
+*{
+ margin: 0;
+ padding: 0;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+body{
+ background: url(diseno-fondo-abstracto_1297-78.jpg) #4285F4;
+ background-size: cover;
+ 
+ background-attachment: fixed;
+ background-position: relative;
+ 
+ color: #fff;
+ font-size: 16px;
+}
+
+.wrap{
+ width: 90%;
+ max-width: 1000px;
+ margin: auto;
+ z-index: 1;
+}
+
+.widget{
+ width: 50%;
+ margin: 25% 25%;
+}
+
+.widget p {
+ display: inline-block;
+ line-height: 1em;
+}
+
+.fecha {
+ font-family: 'Oswald', Arial;
+ text-align: center;
+ font-size: 32px;
+ margin-bottom: 5px;
+ background: rgba(0,0,0,.5);
+ padding: 30px;
+ width: 50% 50%;
+}
+
+.reloj{
+ font-family: 'Oswald', Arial;
+ width: 50% 50%;
+ padding: 30px;
+ font-size: 64px;
+ text-align: center;
+ background: rgba(0,0,0,.5);
+}
+
+.reloj .caja-segundos{
+ display: inline-block;
+}
+
+.reloj .segundos, .reloj .am_pm{
+ font-size: 32px;
+ display: block;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        font-size: 12px;
+    }
+    .wrap{
+        width: 100%;
+    }
+	
+	.widget{
+		width: 70%;
+		margin: 50% 15%;
+	}
+	
+    .fecha{
+        font-size: 32px;
+        display: inline-block;
+    }
+    .reloj{
+		font-size: 48px;
+    }
+    .reloj .am_pm, .reloj .segundos{
+        font-size: 24px;  
+    }
+   
+  }
+ 
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
