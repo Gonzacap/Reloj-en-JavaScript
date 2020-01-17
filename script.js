@@ -56,7 +56,7 @@
 
 		//muestro minutos y segundos
 		
-        if(minutos <10){ minutos = "0" + minutos};		
+        if(minutos <10){ minutos = "X" + minutos};		
         if(segundos < 10){ segundos = "0" + segundos};
 		
 		//
