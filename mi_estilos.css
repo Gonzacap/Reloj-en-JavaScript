@@ -71,15 +71,21 @@ body{
     .wrap{
         width: 100%;
     }
+	
+	.widget{
+		width: 70%;
+		margin: 50% 15%;
+	}
+	
     .fecha{
-        font-size: 3em;
+        font-size: 32px;
         display: inline-block;
     }
-    .reloj{font-size: 64px;
+    .reloj{
+		font-size: 48px;
     }
-    .reloj .am_pm{
-        font-size: 0.45m;  
+    .reloj .am_pm, .reloj .segundos{
+        font-size: 24px;  
     }
    
   }
- 
