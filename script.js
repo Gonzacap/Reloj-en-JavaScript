@@ -44,16 +44,13 @@
         if(horas > 12){
 			horas = horas - 12;
 			am_pm = 'PM';
-			if(horas <10){ horas = "0" + horas};	
         }
 		else{
 			am_pm = 'AM';
         }
-        
-        /*if(horas == 0){
-			horas = 12;
-        };*/
 
+	if(horas <10){ horas = "0" + horas};	
+	
         pHoras.textContent = horas;
         pAMPM.textContent = am_pm;
 
